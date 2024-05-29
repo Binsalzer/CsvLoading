@@ -78,12 +78,7 @@ namespace CsvFilesLoading.Data
         public void Delete()
         {
             using var context = new CsvDataContext(_connection);
-            var people = context.People;
-            foreach(Person p in people)
-            {
-                context.Remove(p);
-            }
-            context.SaveChanges();
+            context.Database.ExecuteSql($"DELETE FROM People");
         }
     }
 }
