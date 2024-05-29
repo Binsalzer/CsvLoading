@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsvFilesLoading.Web", "CsvFilesLoading.Web\CsvFilesLoading.Web.csproj", "{48B8979C-62AC-4AF8-8D1F-7FA4390C86E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsvFilesLoading.Data", "CsvFilesLoading.Data\CsvFilesLoading.Data.csproj", "{D42ECCC0-9DA0-49CD-9D10-E4E3395EE7C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48B8979C-62AC-4AF8-8D1F-7FA4390C86E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48B8979C-62AC-4AF8-8D1F-7FA4390C86E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48B8979C-62AC-4AF8-8D1F-7FA4390C86E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48B8979C-62AC-4AF8-8D1F-7FA4390C86E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D42ECCC0-9DA0-49CD-9D10-E4E3395EE7C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D42ECCC0-9DA0-49CD-9D10-E4E3395EE7C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D42ECCC0-9DA0-49CD-9D10-E4E3395EE7C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D42ECCC0-9DA0-49CD-9D10-E4E3395EE7C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
